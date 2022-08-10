@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c6079;
+}
+
+body h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 5px 5px 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+
+body #searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0px 25px 0px;
+}
+
+body #searchbar input {
+  width: 200px;
+  height: 25px;
+  border: 5px solid black;
+  font-style: italic;
+  font-size: 16px;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+body nav #radiobuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body nav #radiobuttons li {
+  margin: 10px;
+}
+
+body nav #radiobuttons input {
+  accent-color: black;
+  height: 20px;
+  width: 20px;
+}
+
+body #moviechoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+body #moviechoice li {
+  margin: 0px 20px 20px 20px;
+}
+
+body #moviechoice img {
+  height: 500px;
+  width: 400px;
+  border: 5px solid black;
+}
+/*# sourceMappingURL=style.css.map */

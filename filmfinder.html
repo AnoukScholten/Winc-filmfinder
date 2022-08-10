@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="moviearray.js"></script>
+    <script defer src="scriptfilmfinder.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Anouk's filmfinder</title>
+  </head>
+  <body>
+    <h1>Anouk's filmfinder</h1>
+    <form id="searchbar">
+      <input
+        type="text"
+        id="searchmovie"
+        name="searchmovie"
+        placeholder=" Search Movie"
+      />
+    </form>
+    <nav>
+      <ul id="radiobuttons">
+        <li>
+          <input
+            type="radio"
+            id="latest"
+            name="movieoption"
+            value="latest"
+          />
+          <label for="latest">2014 and later movies</label>
+        </li>
+
+        <li>
+          
+          <input
+            type="radio"
+            id="avengers"
+            name="movieoption"
+            value="avengers"
+          />
+
+         <label for="avengers">Avengers movies</label>
+        </li>
+
+        <li>
+          <input
+            type="radio"
+            id="x-men"
+            name="movieoption"
+            value="x-men"
+          />
+          <label for="x-men">X-Men movies</label>
+        </li>
+
+        <li>
+          <input
+            type="radio"
+            id="princess"
+            name="movieoption"
+            value="princess"
+          />
+          <label for="princess"> Princess movies</label>
+        </li>
+
+        <li>
+          <input
+            type="radio"
+            id="batman"
+            name="movieoption"
+            value="batman"
+          />
+          <label for="batman"> Batman movies</label>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <ul id="moviechoice"></ul>
+    </main>
+  </body>
+</html>
